@@ -59,3 +59,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+## starting guide
+composer install
+npm install
+run php artisan tinker then \DB::table('company_details')->insert(['name'=>'Ricowell Private Limited','logo'=>'logo.png','address_line_1'=>'304,brigade','a
+ddress_line_2'=>'Devanahalli','created_at'=>now(),'updated_at'=>now()]);

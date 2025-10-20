@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
 [x-cloak] {
     display: none;
 }
+
+
+.sidebar-list::-webkit-scrollbar {
+      display: none !important; /* Hides the scrollbar visually */
+}
+
+
+

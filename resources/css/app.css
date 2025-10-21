@@ -12,5 +12,21 @@
       display: none !important; /* Hides the scrollbar visually */
 }
 
+.messages{
+    animation: fade 1s 2s forwards;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+    transform: translateY(-100px);
+  }
+}
+
 
 

@@ -16,7 +16,9 @@
     <x-admin-navbar />
     <div class="flex w-full">
         <x-admin.sidebar />
-        {{ $slot }}
+        <div class="mt-22 ml-6">
+            {{ $slot }}
+        </div>
     </div>
     @livewireScripts
 </body>

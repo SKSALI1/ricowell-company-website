@@ -64,7 +64,25 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 ## starting guide
-composer install
-npm install
-run php artisan tinker then \DB::table('company_details')->insert(['name'=>'Ricowell Private Limited','logo'=>'logo.png','address_line_1'=>'304,brigade','a
-ddress_line_2'=>'Devanahalli','created_at'=>now(),'updated_at'=>now()]);
+- composer install
+- npm install
+- run php artisan tinker
+- Paste this 
+\DB::table('company_details')->insert([
+    'name'=>'Ricowell Private Limited',
+    'logo'=>'logo.png',
+    'address_line_1'=>'304 & 305, 3rd Floor, The Arcade',
+    'address_line_2'=>'Brigade Orchards, Devanahalli,',
+    'address_line_3'=>'Karnataka, Bangalore,Pincode-562110',
+    'gst'=>'29AANCR1975M1ZH',
+    'udyam'=>'29AANCR1975M1ZH',
+    'email'=>'support@rwhk.net',
+    'mobile'=>'+919073500882',
+    'whatsapp'=>'+919073500882',
+    'linkedin'=>'www.linkedin.com',
+    'facebook'=>'www.facebook.com',
+    'instagram'=>'www.instagam.com',
+    'twitter'=>'www.twitter.com',
+    'youtube'=>'www.youtube.com',
+    'created_at'=>now(),
+    'updated_at'=>now()]);

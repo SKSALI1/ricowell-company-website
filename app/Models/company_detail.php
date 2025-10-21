@@ -18,6 +18,7 @@ class company_detail extends Model
         'email',
         'mobile',
         'whatsapp',
+        'linkedin',
         'facebook',
         'instagram',
         'twitter',

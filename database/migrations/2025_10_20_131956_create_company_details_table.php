@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('email')->nullable();
             $table->string('mobile')->nullable();
             $table->string('whatsapp')->nullable();
+            $table->string('linkedin')->nullable();
             $table->string('facebook')->nullable();
             $table->string('instagram')->nullable();
             $table->string('twitter')->nullable();
